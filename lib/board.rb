@@ -7,6 +7,7 @@ require_relative 'boardcase'
 
 class Board < BoardCase
   attr_accessor :board
+  @@all_boardcase = []
   def initialize
     @board = board
     @a1 = BoardCase.new("A1")
@@ -18,5 +19,8 @@ class Board < BoardCase
     @c1 = BoardCase.new("C1")
     @c2 = BoardCase.new("C2")
     @c3 = BoardCase.new("C3")
+  end
+    def self.all
+    @@all_boardcase
   end
 end
