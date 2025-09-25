@@ -3,9 +3,18 @@
 #Méthodes : le Board va s'occuper de faire le lien entre les BoardCases et le Game : il change les valeurs des BoardCases (de " " à "x" ou "o") et vérifie en fonction de la combinaison des BoardCases si la partie est finie (= un joueur a gagné ou bien les 9 cases sont remplies sans vainqueur).
 
 
-class Board
+class Board < BoardCase
   attr_accessor :board
   def initialize
     @board = board
+    @a1 = BoardCase.new("A1")
+    @a2 = BoardCase.new("A2")
+    @a3 = BoardCase.new("A3")
+    @b1 = BoardCase.new("B1")
+    @b2 = BoardCase.new("B2")
+    @b3 = BoardCase.new("B3")
+    @c1 = BoardCase.new("C1")
+    @c2 = BoardCase.new("C2")
+    @c3 = BoardCase.new("C3")
   end
 end

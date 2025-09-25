@@ -4,7 +4,7 @@
 class BoardCase
   attr_accessor :position, :value
   @@all_boardcase = []
-def initialize(position, value)
+def initialize(position, value = " ")
   @position = position
   @value = value
   @@all_boardcase << self
