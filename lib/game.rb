@@ -4,7 +4,7 @@
 
 require_relative 'boardcase'
 
-class Game < BoardCase
+class Game 
   game_n = 1
   def initialize
     @board1 = Show.new
