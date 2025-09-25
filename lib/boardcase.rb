@@ -2,6 +2,10 @@
 #Variables d'instance : une Boardcase est définie par sa position (A1, B2, B3, etc.) et son contenu (Soit elle est vide, soit elle a comme valeur le string "x", soit elle a comme valeur le string "o").
 
 require_relative 'game'
+require_relative 'player'
+require_relative 'boardcase'
+require_relative 'show'
+require_relative 'board'
 
 class BoardCase
   attr_accessor :position, :value

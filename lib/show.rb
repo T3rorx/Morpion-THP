@@ -1,7 +1,11 @@
 #Show : cette classe sera une sorte de view. Elle affichera l'état du plateau de jeu à un instant T.
+require_relative 'game'
+require_relative 'player'
+require_relative 'boardcase'
+require_relative 'show'
 require_relative 'board'
 
-class Show < Board
+class Show
   def show
     puts "   1   2   3 "
     puts "A  #{@a1.value} | #{@a2.value} | #{@a3.value} "

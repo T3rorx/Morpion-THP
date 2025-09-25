@@ -1,6 +1,11 @@
 
 # Player
 # Variables d'instance : un joueur a un nom (habile) et un symbole ("x" ou "o").
+require_relative 'game'
+require_relative 'player'
+require_relative 'boardcase'
+require_relative 'show'
+require_relative 'board'
 
 class Player
   attr_accessor :name, :symbole, :victory
