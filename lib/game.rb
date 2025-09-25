@@ -26,6 +26,7 @@ class Game
       else
       end
       game_n = game_n + 1
+      if game_n == 9 ; puts "Match NUL" ; @display.show ; break ; end
       puts "Coup #{game_n}"
       @display.show
       play(@player2)
@@ -38,10 +39,6 @@ class Game
       puts game_n
       @display.show
     end
-  if game_n == 9 
-    puts "Match NUL"
-  else 
-  end
   end
   def play(player)
     loop do
