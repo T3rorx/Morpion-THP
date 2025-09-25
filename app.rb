@@ -1,5 +1,6 @@
 require 'bundler'
 require 'pry'
+require 'colorize'
 Bundler.require
 
 require_relative 'lib/game'

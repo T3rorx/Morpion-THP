@@ -5,7 +5,7 @@
 require_relative 'boardcase'
 
 class Board
-  attr_reader :a1, :a2, :a3, :b1, :b2, :b3, :c1, :c2, :c3
+  attr_reader :a1, :a2, :a3, :b1, :b2, :b3, :c1, :c2, :c3, :winner
 
   def initialize
     @a1 = BoardCase.new("A1")
@@ -17,16 +17,5 @@ class Board
     @c1 = BoardCase.new("C1")
     @c2 = BoardCase.new("C2")
     @c3 = BoardCase.new("C3")
-  end
-  def winner(player)
-    if @player1.include(
-                        %w[a1 b2 c3]
-                        %w[a3 b2 c1]
-                        %w[a1 a2 a3]
-                        %w[b1 b2 b3]
-                        %w[c1 c2 c3]
-                        %w[a1 b1 c1]
-                        %w[a2 b2 c2]
-                        %w[a3 b3 c3])
   end
 end
