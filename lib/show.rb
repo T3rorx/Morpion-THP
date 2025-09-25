@@ -4,11 +4,11 @@ require_relative 'board'
 class Show < Board
   def show
     puts "   1   2   3 "
-    puts "A #{@a1.value}  | #{@a2.value} | #{@a3.value} "
+    puts "A  #{@a1.value} | #{@a2.value} | #{@a3.value} "
     puts "  -----------"
-    puts "A #{@b1.value}  | #{@b2.value} | #{@b3.value} "
+    puts "B  #{@b1.value} | #{@b2.value} | #{@b3.value} "
     puts "  -----------"
-    puts "A #{@c1.value}  | #{@c2.value} | #{@c3.value} "
+    puts "C  #{@c1.value} | #{@c2.value} | #{@c3.value} "
   end
   def test
     puts "test 1"
