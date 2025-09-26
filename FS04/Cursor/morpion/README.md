@@ -1,0 +1,1 @@
+# Morpion - Base Ruby\n\nProjet de base Ruby minimal pour démarrer un Morpion en POO.\n\n## Installation\n\n```bash\n bundle install\n```\n\n## Test rapide\n\n```bash\n bin/morpion\n```\n\n## Arborescence\n- bin/morpion : exécutable de test\n- lib/morpion.rb : module racine\n- Gemfile : dépendances\n- .gitignore : ignore vendor/bundle\n

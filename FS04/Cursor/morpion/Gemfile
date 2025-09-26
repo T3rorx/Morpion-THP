@@ -1,0 +1,4 @@
+source "https://rubygems.org"
+ruby ">= 3.0"
+
+# Dépendances optionnelles (aucune requise pour la base)

@@ -1,0 +1,1 @@
+# frozen_string_literal: true\n\nmodule Morpion\nend\n

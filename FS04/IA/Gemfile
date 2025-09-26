@@ -1,0 +1,7 @@
+# source officiel des gems Ruby
+source 'https://rubygems.org'
+
+# Gem utilisée pour colorer l'affichage du plateau dans le terminal
+# Installation : bundle install
+# Documentation : https://github.com/fazibear/colorize
+gem 'colorize'
